@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alexandria';
+}
+/* <!-- top side / calling step one / section one --> */
+.top{
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.top h1{
+    font-size: 30px;
+    margin: 10px;
+}
+/* <!-- top side / calling step one / back button /section one --> */
+.back_cont button {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    border: none;
+    margin-right: 50%;
+    
+}
+
+.back_cont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* <!-- bottom side / calling step one / section one --> */
+.bottom{
+    margin: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.bottom h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+/* <!-- labels & inputs / bottom side / calling step one / section one --> */
+.mb-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mb-3 label{
+    font-size: 20px;
+    font-weight: 300;
+    color: #787878;
+    margin: 30px;
+}
+.mb-3 select{
+    width: 350px;
+    height: 72px;
+    border: #1e1e1e solid 2px;
+    border-radius: 15px;
+}
+#cars{
+    background-image: url("/img/ear.png");
+    background-repeat: no-repeat;
+    background-size:21px;
+    text-align: center;
+    background-position: center right 15px;
+    font-size: 24px;
+    color: #1e1e1e;
+}
+#cars1{
+    background-image: url("/img/age-alt\ \(1\)\ 1.png");
+    background-repeat: no-repeat;
+    background-size:21px;
+    text-align: center;    
+    background-position: center right 15px;
+    font-size: 24px;
+    color: #1e1e1e;
+}
+#cars2{
+    background-image: url("/img/user.png");
+    background-repeat: no-repeat;
+    background-size:21px;
+    background-position: center right 15px;
+    font-size: 24px;
+    color: #1e1e1e;
+    text-align: center;
+}
+/* <!-- labels & inputs / bottom side / calling step one / section one / responsive setting --> */
+@media only screen and (max-width: 469px) {
+    .top img {
+        width: 100px;
+    }
+    .top h1{
+        font-size: 20px;
+    }
+    .back_cont button{
+        font-size: 20px;
+    }
+}

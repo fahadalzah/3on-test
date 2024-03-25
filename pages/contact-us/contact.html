@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تواصل معنا | عون</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/darklogo.png">
+    <script
+      src="https://kit.fontawesome.com/b80c14004f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body dir="rtl">
+    <!-- navbar / all pages-->
+    <nav class="navbar navbar-expand-lg sticky-top nav" id="nav" style="padding-top: 1%; z-index: 99;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/pages/homepage/homepage.html" style="margin-right: 4%;">
+          <img src="/img/darklogo.png" alt="شعاري" width="150" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="active" class="nav-link active" aria-current="page" href="/pages/homepage/homepage.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/calling/calling.html">الاتصال</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contact-us/contact.html">تواصل معنا</a>
+            </li>
+          </ul>
+        </ul>
+        <a class="btn btn-primary" id="signup" href="/pages/signingpages/pages/signup.html" role="button">التسجيل</a>
+      </div>
+    </div>
+  </nav>
+    <!--  section one / main / contact page  -->
+    <main>
+      <!--  section one / left / contact page -->
+      <section class="left">
+        <p
+          style="color: #5ac99d; font-size: 33px; font-weight: 600; margin-bottom: 0px;" 
+          class="main-content"
+        >
+          اهلا بك 👋
+        </p>
+        <h1 class="main-content">ابقى على تواصل</h1>
+        <p style="color: rgb(131, 121, 121)" class="main-content">
+          إكتب إستفسارك أو طلبك وسيتم الرد والتواصل معك في أقرب وقت ممكن.
+        </p>
+        <section class="socials">
+          <section class="social-contact">
+            <img
+              src="/img/envelope.png"
+              alt="mail icon"
+              width="45"
+              height="45"
+            />
+            <section class="content2">
+              <p>راسلنا بالبريد الإلكتروني:</p>
+              <a href="mailto:3on.dev@gmail.com">3on.dev@gmail.com</a>
+            </section>
+          </section>
+          <!-- /* section one / social-contact / contact page */ -->
+          <section class="social-contact">
+            <img
+              src="/img/phone-call.png"
+              alt="phone icon"
+              width="45"
+              height="45"
+            />
+            <section class="content2">
+              <p>للحصول على مساعدة السريعة:</p>
+              <a href="tel:+966552769336">05123456789 966+</a>
+            </section>
+          </section>
+        </section>
+      </section>
+      <!-- /* section one / right / contact page */-->
+      <section class="right">
+        <form action="mailto:contact@codelmz.com" method="post">
+          <p>إسمك</p>
+          <input type="text" name="Name" placeholder="إسمك" required />
+          <p>البريد الإلكتروني</p>
+          <input type="email" placeholder="marginauto@gmail.com" required />
+          <p>الموضوع</p>
+          <input
+            type="text"
+            id="Subject"
+            name="Subject"
+            placeholder="الموضوع"
+            required
+          />
+          <p>كيف نقدر نساعدك ؟</p>
+          <textarea
+            id="message"
+            name="Message"
+            style="width: 300px; height: 60px; "
+            required
+          ></textarea>
+          <input class="submit-btn" type="submit" value="ارسل الآن >>" />
+        </form>
+      </section>
+    </main>
+    <!--/* section one / footer / contact page */-->
+
+
+
+    <script>
+      document.addEventListener('scroll', function () {
+      const nav = document.querySelector('.nav');
+      // كود أذا نزل بل الماوس إلى هاذي القيمة يقوم بالأوامر في الأسفل
+      if (window.scrollY > 100) {
+          nav.classList.add('scrolled');
+          // يظهر تنسيق السكرولد ويكون فيه تغير خلفية الناف بار
+      }    else {
+          // إزالة التنسيق
+          nav.classList.remove('scrolled');
+  
+      }
+  })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

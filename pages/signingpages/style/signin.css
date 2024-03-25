@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alexandria';
+        /* overflow-y: hidden; */
+}
+
+
+#center_logo {
+    display: none;
+}
+
+
+.top_side {
+    margin-bottom: 1%;
+    padding: 4% 1%;
+    display: none;
+    background-color: #5AC99D   ;
+}
+
+
+
+.back_cont button {
+    color: #4E585F;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffff;
+    border: none;
+    margin-right: 50%;
+    
+}
+
+.back_cont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.right_side h1 {
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+.form_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.form-label {
+    color: #3A3A3A;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 3%;
+}
+
+.form-select {
+    background-color: #F4F5FB;
+}
+
+
+.form-control {
+    background-color: #F4F5FB;
+    border: 1px solid #CCCCCC;
+    height: 48px;
+    border-radius: 9px;
+    width: 360px;
+    font-weight: 100;
+    color: #3A3A3A;
+}
+
+.form-control::placeholder {
+    color: #787878;
+    font-size: 17px;
+    font-weight: 400;
+}
+#name {
+    background-image: url("/img/building-green\ 3.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+    padding-right: 50px;
+    background-position: center right 15px;
+}
+
+#email_input {
+    background-image: url("/img/envelope\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 21px;
+    padding-right: 50px;
+    background-position: center right 15px;
+}
+
+
+#password_input {
+    background-image: url("/img/lock\ 1.png");
+    background-repeat: no-repeat;
+    background-size:21px;
+    padding-right: 50px;
+    background-position: center right 15px;
+}
+
+#cars{
+    background-image: url("/img/users-alt\ 1.png");
+    background-repeat: no-repeat;
+    background-size:21px;
+    padding-right: 50px;
+    background-position: center right 15px;
+    color: #787878;
+}
+
+
+
+#form_btn {
+    border-radius: 8px;
+    background-color: #5AC99D;
+    border: 1px solid #5AC99D;
+    width: 98%;
+    margin: auto;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 3% 0;
+}
+#a{
+    width: 100%;
+}
+.right_side h1{
+    margin-bottom: 50px;
+}
+
+
+.left_side {
+    display: flex;
+    z-index: 9;
+    background-color: #5AC99D;
+    min-height: 750px;
+    width: 45%;
+    margin-right: auto;
+    transition: .25s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px
+}
+
+.left_side img {
+    margin: auto;
+}
+
+input {
+    background-color: #f4f5f8;
+}
+
+
+.requirements {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----------------- */
+.requirements p {
+    color: #787878;
+    font-size: 17px;
+}
+
+.circle_error {
+    border: 2px solid #5AC99D;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 9px;
+    
+}
+
+.circle_success {
+    /* border: 2px solid #4FAE88; */
+    background-color: #4FAE88;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 9px;
+    
+}
+
+.letters {
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+}
+
+.symbols {
+    display: flex;
+}
+.left_side {
+    display: none;
+}
+
+#center_logo {
+    display: block;
+    margin: auto;
+}
+
+.top_side {
+    
+        display: block;
+        margin-bottom: 1%;
+        height: 1%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px; */
+
+    
+}
+@media only screen and (max-width: 1000px) {
+    .left_side {
+        display: none;
+    }
+    
+    #center_logo {
+        display: block;
+        margin: auto;
+    }
+    
+    .top_side {
+        
+            display: block;
+            margin-bottom: 10%;
+            height: 1%;
+            /* border-bottom-left-radius: 13px;
+            border-bottom-right-radius: 13px; */
+    
+        
+    }
+    @media only screen and (max-width: 1010px) {
+
+        .top_side{
+
+            margin-bottom: 30px
+    
+        }
+    }
+
+}

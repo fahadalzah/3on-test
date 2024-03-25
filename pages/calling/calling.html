@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="calling.css">
+</head>
+<body dir="rtl">
+    <!-- start / calling step one / TOP_SIDE / section one -->
+    <main>
+        <!-- top side / calling step one / section one -->
+        <div class="top">
+            <!-- زر العودة -->
+            <div class="back_cont" style="width: 150px; ">
+                <a href="javascript:history.back()"><button style="padding-top: 18%; width: 100%; margin: auto;"><i class="fi fi-br-angle-right"></i> العودة </button></a>
+            </div>
+            <img src="/img/logo.png" alt="logo" width="150px">
+            <h1>المساعدة</h1>
+        </div>
+        <!-- bottom side / calling step one / section one -->
+        <div class="bottom">
+            <h1>إختر نوع المساعدة</h1>
+            <!-- أي فئة من ذوي الإحتياجات الخاصة تود مساعدتهم ؟ / calling step one / section one -->
+            <div class="mb-3">
+                <label class="form-label mb-2" for="cars">أي فئة من ذوي الإحتياجات الخاصة تود مساعدتهم ؟</label>
+                <select class="form-control" id="cars" name="carlist" form="carform">
+                    <option value="ear">  السمع</option>
+                    <option value="eye"> البصر </option>
+                    <option value="talk"> الكلام</option>
+                </select>
+            </div>
+            <!-- سن الذي ستتم مساعدته ؟ / calling step one / section one -->
+            <div class="mb-3">
+                <label class="form-label mb-2" for="cars1">سن الذي ستتم مساعدته ؟</label>
+                <select class="form-control" id="cars1" name="carlist" form="carform">
+                    <option value="40-60">مابين 40-60 سنة</option>
+                    <option value="20-40">مابين 20-40 سنة</option>
+                    <option value="10-20">مابين 10-20 سنة</option>
+                    <option value="all">كل الاعمار</option>
+                </select>
+            </div>
+            <!-- جنس الذي ستتم مساعدته ؟ / calling step one / section one -->
+            <div class="mb-3">
+                <label class="form-label mb-2" for="cars2">جنس الذي ستتم مساعدته ؟</label>
+                <select class="form-control" id="cars2" name="carlist" form="carform">
+                    <option value="man">رجل</option>
+                    <option value="women">امرأة</option>
+                    <option value="ALL">كلاهما</option>
+                </select>
+            </div>
+            <a href="/pages/calling/step2.html"><button>مكالمة</button></a>
+        </div>
+    </main>
+</body>
+</html>
