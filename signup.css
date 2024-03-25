@@ -88,7 +88,7 @@ body {
     font-weight: 400;
 }
 #name {
-    background-image: url("/img/building-green\ 3.png");
+    background-image: url("building-green\ 3.png");
     background-repeat: no-repeat;
     background-size: 21px;
     padding-right: 50px;
@@ -96,7 +96,7 @@ body {
 }
 
 #email_input {
-    background-image: url("/img/envelope\ 1.png");
+    background-image: url("envelope\ 1.png");
     background-repeat: no-repeat;
     background-size: 21px;
     padding-right: 50px;
@@ -105,7 +105,7 @@ body {
 
 
 #password_input {
-    background-image: url("/img/lock\ 1.png");
+    background-image: url("lock\ 1.png");
     background-repeat: no-repeat;
     background-size:21px;
     padding-right: 50px;
@@ -113,7 +113,7 @@ body {
 }
 
 #cars{
-    background-image: url("/img/users-alt\ 1.png");
+    background-image: url("users-alt\ 1.png");
     background-repeat: no-repeat;
     background-size:21px;
     padding-right: 50px;

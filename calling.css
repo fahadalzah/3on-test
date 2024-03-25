@@ -71,7 +71,7 @@
     border-radius: 15px;
 }
 #cars{
-    background-image: url("/img/ear.png");
+    background-image: url("ear.png");
     background-repeat: no-repeat;
     background-size:21px;
     text-align: center;
@@ -80,7 +80,7 @@
     color: #1e1e1e;
 }
 #cars1{
-    background-image: url("/img/age-alt\ \(1\)\ 1.png");
+    background-image: url("age-alt\ \(1\)\ 1.png");
     background-repeat: no-repeat;
     background-size:21px;
     text-align: center;    
@@ -89,7 +89,7 @@
     color: #1e1e1e;
 }
 #cars2{
-    background-image: url("/img/user.png");
+    background-image: url("user.png");
     background-repeat: no-repeat;
     background-size:21px;
     background-position: center right 15px;
